@@ -4,6 +4,10 @@ const slides = [
   { image: '/images/panda-montanhas.png', eyebrow: 'Vida selvagem', title: 'Panda gigante', description: 'Entre montanhas cobertas de névoa, o panda encontra tranquilidade em seu habitat natural.' },
   { image: '/images/panda-bambu.png', eyebrow: 'Floresta de bambu', title: 'Caminho dourado', description: 'A luz do fim da tarde atravessa o bambuzal enquanto o panda explora a floresta.' },
   { image: '/images/panda-riacho.png', eyebrow: 'Natureza preservada', title: 'Pausa junto ao riacho', description: 'Água cristalina, montanhas e bambu formam o cenário perfeito para uma refeição tranquila.' },
+  { image: '/images/urso.png', eyebrow: 'Floresta selvagem', title: 'Urso-pardo', description: 'Entre o rio e as montanhas, o urso percorre uma paisagem de natureza intocada.' },
+  { image: '/images/leao.png', eyebrow: 'Rei da savana', title: 'Leão africano', description: 'Sob a sombra de uma acácia, o leão observa o horizonte iluminado pelo pôr do sol.' },
+  { image: '/images/girafa.png', eyebrow: 'Horizonte africano', title: 'Girafa', description: 'Elegante e tranquila, a girafa atravessa a savana aos primeiros raios do dia.' },
+  { image: '/images/cachorro.png', eyebrow: 'Alegria ao ar livre', title: 'Golden retriever', description: 'Um passeio cheio de energia entre flores, montanhas e o céu azul.' },
 ]
 
 function App() {
@@ -25,7 +29,7 @@ function App() {
         <header className="mb-7 flex items-end justify-between gap-4">
           <div>
             <p className="mb-2 text-xs font-bold uppercase tracking-[0.32em] text-emerald-300">Image Slider</p>
-            <h1 className="text-3xl font-semibold tracking-tight sm:text-5xl">O mundo do panda gigante</h1>
+            <h1 className="text-3xl font-semibold tracking-tight sm:text-5xl">O incrível mundo dos animais</h1>
           </div>
           <p className="hidden max-w-xs text-right text-sm leading-6 text-white/60 md:block">Galeria criada com React, Tailwind CSS e imagens geradas por inteligência artificial.</p>
         </header>
@@ -41,7 +45,7 @@ function App() {
             if (event.key === 'ArrowRight') showNext()
           }}
           tabIndex="0"
-          aria-label="Galeria de imagens do panda gigante"
+          aria-label="Galeria de imagens de animais"
         >
           {slides.map((slide, index) => (
             <article key={slide.image} className={`absolute inset-0 transition-opacity duration-700 ${index === currentSlide ? 'z-10 opacity-100' : 'opacity-0'}`} aria-hidden={index !== currentSlide}>
