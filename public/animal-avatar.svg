@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">Mascote raposa do Mundo Animal</title>
+  <defs>
+    <linearGradient id="bg" x1="18" x2="110" y1="10" y2="118" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#174b35"/>
+      <stop offset="1" stop-color="#07120d"/>
+    </linearGradient>
+  </defs>
+  <circle cx="64" cy="64" r="62" fill="url(#bg)"/>
+  <circle cx="64" cy="64" r="59.5" fill="none" stroke="#6ee7b7" stroke-opacity=".65" stroke-width="2"/>
+  <path d="M29 62 15 13l40 25m34 24 24-49-40 25" fill="#e77732" stroke="#8c4425" stroke-linejoin="round" stroke-width="3"/>
+  <path d="m27 30 22 16-17 3-5-19Zm74 0L79 46l17 3 5-19Z" fill="#f6c4a0"/>
+  <path d="M64 29c-21 0-37 16-37 38 0 23 14 38 37 38s37-15 37-38C101 45 85 29 64 29Z" fill="#e77732"/>
+  <path d="M29 65c4 8 11 11 18 12 6 13 12 20 17 20s11-7 17-20c7-1 14-4 18-12-2 22-15 40-35 40S31 87 29 65Z" fill="#fff3df"/>
+  <path d="M40 59c2-7 8-11 14-9 6 1 9 7 8 13-1 7-6 11-12 10-7-1-12-7-10-14Zm24 4c-1-6 2-12 8-13 6-2 12 2 14 9 2 7-3 13-10 14-6 1-11-3-12-10Z" fill="#783d2a"/>
+  <ellipse cx="52" cy="60" fill="#fff" rx="3.5" ry="4.5"/>
+  <ellipse cx="76" cy="60" fill="#fff" rx="3.5" ry="4.5"/>
+  <circle cx="53" cy="61" r="2" fill="#201915"/>
+  <circle cx="75" cy="61" r="2" fill="#201915"/>
+  <path d="M57 81c2-5 12-5 14 0l-7 6-7-6Z" fill="#211b17"/>
+  <path d="M64 87v4m0 0c-4 4-8 3-11 0m11 0c4 4 8 3 11 0" fill="none" stroke="#783d2a" stroke-linecap="round" stroke-width="2.5"/>
+  <path d="M34 106c10 5 20 7 30 7s20-2 30-7l-5-10c-15 8-35 8-50 0l-5 10Z" fill="#34a979"/>
+  <path d="m64 96 7 7-7 7-7-7 7-7Z" fill="#d1fae5"/>
+</svg>
