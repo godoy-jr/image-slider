@@ -84,7 +84,7 @@ function App() {
       <section className="mx-auto max-w-7xl">
         <header className="mb-7 flex items-end justify-between gap-4">
           <div className="flex items-center gap-4">
-            <img src="/animal-avatar.svg" alt="Mascote panda" className="size-14 shrink-0 sm:size-16" />
+            <img src="/animal-avatar.svg" alt="Coiote do Mundo Animal" className="size-14 shrink-0 sm:size-16" />
             <div>
               <p className="mb-2 text-xs font-bold uppercase tracking-[0.32em] text-emerald-300">Mundo Animal</p>
               <h1 className="text-3xl font-semibold tracking-tight sm:text-5xl">O incrível mundo dos animais</h1>

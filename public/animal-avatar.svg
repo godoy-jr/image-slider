@@ -1,24 +1,31 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
-  <title id="title">Mascote raposa do Mundo Animal</title>
+  <title id="title">Coiote do Mundo Animal</title>
   <defs>
     <linearGradient id="bg" x1="18" x2="110" y1="10" y2="118" gradientUnits="userSpaceOnUse">
       <stop stop-color="#174b35"/>
       <stop offset="1" stop-color="#07120d"/>
     </linearGradient>
+    <clipPath id="avatar">
+      <circle cx="64" cy="64" r="58"/>
+    </clipPath>
   </defs>
   <circle cx="64" cy="64" r="62" fill="url(#bg)"/>
   <circle cx="64" cy="64" r="59.5" fill="none" stroke="#6ee7b7" stroke-opacity=".65" stroke-width="2"/>
-  <path d="M29 62 15 13l40 25m34 24 24-49-40 25" fill="#e77732" stroke="#8c4425" stroke-linejoin="round" stroke-width="3"/>
-  <path d="m27 30 22 16-17 3-5-19Zm74 0L79 46l17 3 5-19Z" fill="#f6c4a0"/>
-  <path d="M64 29c-21 0-37 16-37 38 0 23 14 38 37 38s37-15 37-38C101 45 85 29 64 29Z" fill="#e77732"/>
-  <path d="M29 65c4 8 11 11 18 12 6 13 12 20 17 20s11-7 17-20c7-1 14-4 18-12-2 22-15 40-35 40S31 87 29 65Z" fill="#fff3df"/>
-  <path d="M40 59c2-7 8-11 14-9 6 1 9 7 8 13-1 7-6 11-12 10-7-1-12-7-10-14Zm24 4c-1-6 2-12 8-13 6-2 12 2 14 9 2 7-3 13-10 14-6 1-11-3-12-10Z" fill="#783d2a"/>
-  <ellipse cx="52" cy="60" fill="#fff" rx="3.5" ry="4.5"/>
-  <ellipse cx="76" cy="60" fill="#fff" rx="3.5" ry="4.5"/>
-  <circle cx="53" cy="61" r="2" fill="#201915"/>
-  <circle cx="75" cy="61" r="2" fill="#201915"/>
-  <path d="M57 81c2-5 12-5 14 0l-7 6-7-6Z" fill="#211b17"/>
-  <path d="M64 87v4m0 0c-4 4-8 3-11 0m11 0c4 4 8 3 11 0" fill="none" stroke="#783d2a" stroke-linecap="round" stroke-width="2.5"/>
-  <path d="M34 106c10 5 20 7 30 7s20-2 30-7l-5-10c-15 8-35 8-50 0l-5 10Z" fill="#34a979"/>
-  <path d="m64 96 7 7-7 7-7-7 7-7Z" fill="#d1fae5"/>
+  <g clip-path="url(#avatar)">
+    <path d="M17 130c2-23 20-37 47-37s45 14 47 37" fill="#176847"/>
+    <path d="m50 91 14 14 14-14-5-13H55l-5 13Z" fill="#f1e3ca"/>
+    <path d="m52 92 12 14 12-14 7 4-19 21-19-21 7-4Z" fill="#d5a257"/>
+    <path d="M39 52 29 15l29 24m31 13 10-37-29 24" fill="#9d6842" stroke="#583d2d" stroke-linejoin="round" stroke-width="3"/>
+    <path d="m35 29 17 16-14-3-3-13Zm58 0L76 45l14-3 3-13Z" fill="#d98978"/>
+    <path d="M64 27c-20 0-35 17-35 39 0 23 15 38 35 38s35-15 35-38C99 44 84 27 64 27Z" fill="#a9784c"/>
+    <path d="M43 63c1-7 7-12 13-10 6 1 9 7 8 13-1 6-5 10-11 9-7-1-11-6-10-12Zm21 3c-1-6 2-12 8-13 6-2 12 3 13 10 1 6-3 11-10 12-6 1-10-3-11-9Z" fill="#553c2d"/>
+    <ellipse cx="53" cy="61" fill="#fff6df" rx="3" ry="4"/>
+    <ellipse cx="75" cy="61" fill="#fff6df" rx="3" ry="4"/>
+    <circle cx="54" cy="62" r="1.8" fill="#1c1a17"/>
+    <circle cx="74" cy="62" r="1.8" fill="#1c1a17"/>
+    <path d="M42 75c7 1 13 6 22 6s15-5 22-6c-4 13-12 19-22 19s-18-6-22-19Z" fill="#f1e3ca"/>
+    <path d="M58 77c2-4 10-4 12 0l-6 5-6-5Z" fill="#211b17"/>
+    <path d="M64 82v4m0 0c-3 3-6 3-9 0m9 0c3 3 6 3 9 0" fill="none" stroke="#553c2d" stroke-linecap="round" stroke-width="2"/>
+    <path d="m53 39 8-2m5 0 8 2" stroke="#6ee7b7" stroke-linecap="round" stroke-width="2.5"/>
+  </g>
 </svg>
