@@ -142,6 +142,10 @@ function App() {
           <div className="absolute right-6 top-6 z-20 rounded-full border border-white/15 bg-black/25 px-3 py-1 text-xs tracking-widest text-white/75 backdrop-blur-md sm:right-8 sm:top-8">{String(currentSlide + 1).padStart(2, '0')} / {String(slides.length).padStart(2, '0')}</div>
         </div>
       </section>
+      <footer className="mx-auto mt-8 flex max-w-7xl items-center gap-3 border-t border-white/10 pt-5 text-sm text-white/60">
+        <img src="/animal-avatar.svg" alt="Coiote do Mundo Animal" className="size-10 shrink-0" />
+        <span>Explorando o incrível mundo dos animais</span>
+      </footer>
     </main>
   )
 }
