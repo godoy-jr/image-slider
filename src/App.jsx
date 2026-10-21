@@ -90,7 +90,7 @@ function App() {
               <h1 className="text-3xl font-semibold tracking-tight sm:text-5xl">O incrível mundo dos animais</h1>
             </div>
           </div>
-          <p className="hidden max-w-xs text-right text-sm leading-6 text-white/60 md:block">Galeria criada com React, Tailwind CSS e imagens geradas por inteligência artificial.</p>
+          <p className="hidden max-w-xs text-right text-sm leading-6 text-white/60 md:block">Galeria criada com React, Tailwind CSS, imagens geradas por IA e fotografias de acervo livre.</p>
         </header>
 
         <div
@@ -107,8 +107,8 @@ function App() {
           aria-label="Galeria de imagens de animais"
         >
           {slides.map((slide, index) => (
-            <article key={slide.image} className={`absolute inset-0 transition-opacity duration-700 ${index === currentSlide ? 'z-10 opacity-100' : 'opacity-0'}`} aria-hidden={index !== currentSlide}>
-              <img src={slide.image} alt={`${slide.title}: ${slide.description}`} className="h-full w-full object-cover" />
+            <article key={slide.image} className={`absolute inset-0 transition-opacity duration-700 ${index === currentSlide ? 'z-10 opacity-100' : 'opacity-0'}`} aria-hidden={index !== currentSlide} inert={index !== currentSlide}>
+              <img src={slide.image} alt={`${slide.title}: ${slide.description}`} className="h-full w-full object-cover" loading={index === 0 ? 'eager' : 'lazy'} decoding="async" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/10 to-black/20" />
               <div className="absolute inset-x-0 bottom-0 max-w-3xl p-6 sm:p-10 lg:p-14">
                 <p className="mb-3 text-xs font-bold uppercase tracking-[0.28em] text-emerald-300">{slide.eyebrow}</p>

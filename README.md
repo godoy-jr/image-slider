@@ -1,16 +1,53 @@
-# React + Vite
+# Mundo Animal — Image Slider
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Galeria responsiva de animais desenvolvida durante a Aula 11. O projeto apresenta um slider automático com navegação por botões, indicadores e teclado, combinando imagens geradas por inteligência artificial com fotografias de acervo livre.
 
-Currently, two official plugins are available:
+## Tecnologias
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React 19
+- Vite 8
+- Tailwind CSS 4
+- JavaScript
 
-## React Compiler
+## Funcionalidades
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- avanço automático a cada cinco segundos;
+- botões para avançar e voltar;
+- navegação pelas setas do teclado;
+- indicadores da imagem atual;
+- pausa ao posicionar o mouse ou focar o slider;
+- layout responsivo para celular e computador;
+- carregamento adiado das imagens seguintes;
+- créditos e licenças das fotografias de acervo.
 
-## Expanding the Oxlint configuration
+## Como executar
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+```bash
+npm install
+npm run dev
+```
+
+O terminal mostrará o endereço local do projeto, normalmente `http://localhost:5173`.
+
+## Verificações
+
+```bash
+npm run lint
+npm run build
+```
+
+## Imagens e créditos
+
+As imagens em PNG foram geradas com inteligência artificial para este projeto. As fotografias em JPG foram obtidas no Wikimedia Commons e mantêm suas respectivas licenças:
+
+- Charles J. Sharp — ursa-parda-europeia e leão com filhote — CC BY-SA 4.0;
+- neusitas — urso-pardo-cantábrico — CC BY-SA 2.0;
+- Giles Laurent — leão no Serengeti — CC BY-SA 4.0;
+- Dietmar Rabich — girafas no Kruger e golden retriever — CC BY-SA 4.0;
+- Pete Markham — Watson, o golden retriever — CC BY-SA 2.0.
+
+Os links para cada obra e licença aparecem diretamente no slide correspondente.
+
+## Repositório
+
+[github.com/godoy-jr/image-slider](https://github.com/godoy-jr/image-slider)
